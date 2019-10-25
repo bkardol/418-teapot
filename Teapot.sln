@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.108
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Teapot.API", "Teapot.API\Teapot.API.csproj", "{267B1969-8806-4351-B179-14E717C7827F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teapot", "Teapot\Teapot.csproj", "{F7211544-43D8-4693-99F8-469016254502}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{267B1969-8806-4351-B179-14E717C7827F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{267B1969-8806-4351-B179-14E717C7827F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{267B1969-8806-4351-B179-14E717C7827F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{267B1969-8806-4351-B179-14E717C7827F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7211544-43D8-4693-99F8-469016254502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7211544-43D8-4693-99F8-469016254502}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7211544-43D8-4693-99F8-469016254502}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7211544-43D8-4693-99F8-469016254502}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B010F17-DAD0-4BA6-A730-78773995A061}
+	EndGlobalSection
+EndGlobal
