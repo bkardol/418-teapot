@@ -1,2 +1,2 @@
 # 418-teapot
-A simple library including an teapot endpoint with a brew coffee method.
+A simple library including a 'teapot' endpoint with a 'brewcoffee' method.
