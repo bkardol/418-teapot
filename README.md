@@ -15,7 +15,7 @@ I hear you think, what is the use of this random teapot/brewcoffee endpoint if y
   - check whether your API is up and running;
   - start your application afer deploying it;
   - prevent application pool recycling;
-  - hide an easter egg (that is how this status code was [born](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/418) after all).
+  - add it as a joke (that is how this status code was [born](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/418) after all).
   
 This repository also contains the Teapot.API project, demonstrating the purpose of the library.
 
