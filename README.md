@@ -21,6 +21,7 @@ This repository also contains the Teapot.API project, demonstrating the purpose 
 
 # Quick-Start
 All you need to do is install the library from [NuGet](https://www.nuget.org/packages/Teapot.AspNetCore/) into your .NET Core 3 API project and it automagically works!
+Both the GET and POST request to the '/teapot/brewcoffee' endpoint will work.
 
 # Suggestions?
 Please create an issue or contact me in case of any issues or suggestions.
