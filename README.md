@@ -20,8 +20,14 @@ I hear you think, what is the use of this random teapot/brewcoffee endpoint if y
 This repository also contains the Teapot.API project, demonstrating the purpose of the library.
 
 # Quick-Start
-All you need to do is install the library from [NuGet](https://www.nuget.org/packages/Teapot.AspNetCore/) into your .NET Core 3 API project and it automagically works!
-Both the GET and POST request to the '/teapot/brewcoffee' endpoint will work.
+1. Install the library from [NuGet](https://www.nuget.org/packages/Teapot.AspNetCore/) into your .NET Core 3 API project.
+2. In ConfigureServices in your startup.cs call `.AddTeapot()` on the IMvcBuilder, for example:
+
+`       public void ConfigureServices(IServiceCollection services)
+        {
+            services.AddControllers().AddTeapot(); 
+        }`
+
 
 # Suggestions?
 Please create an issue or contact me in case of any issues or suggestions.
