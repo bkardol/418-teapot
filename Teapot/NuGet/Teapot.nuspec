@@ -6,11 +6,11 @@
     <title>ASP.NET Core Teapot endpoint</title>
     <authors>Bart Kardol</authors>
     <owners>Bart Kardol</owners>
-    <projectUrl>https://github.com/bkardol/418-teapot</projectUrl>
+    <projectUrl>https://github.com/bkardol/Teapot.AspNetCore</projectUrl>
     <license type="expression">MIT</license>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A library including a 'teapot' endpoint with a 'brewcoffee' method.</description>
     <copyright>Copyright 2019</copyright>
-    <tags>uwp wrappanel wrap panel xaml</tags>
+    <tags>teapot brew 418 aspnetcore asp core api</tags>
   </metadata>
 </package>
