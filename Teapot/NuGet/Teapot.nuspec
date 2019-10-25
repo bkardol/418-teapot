@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Teapot.AspNetCore</id>
-    <version>1.0</version>
+    <version>1.0.1</version>
     <title>ASP.NET Core Teapot endpoint</title>
     <authors>Bart Kardol</authors>
     <owners>Bart Kardol</owners>

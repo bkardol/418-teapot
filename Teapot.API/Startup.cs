@@ -4,6 +4,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
+using Teapot.Extensions.DependencyInjection;
 
 namespace Teapot.API
 {
@@ -18,7 +19,8 @@ namespace Teapot.API
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers(); services.AddSwaggerGen(c =>
+            services.AddControllers().AddTeapot(); 
+            services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("teapot", new OpenApiInfo { Title = "Teapot API" });
             });
