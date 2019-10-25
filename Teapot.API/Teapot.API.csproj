@@ -6,10 +6,7 @@
 
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0-rc4" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Teapot\Teapot.csproj" />
+    <PackageReference Include="Teapot.AspNetCore" Version="1.0.1" />
   </ItemGroup>
 
 </Project>

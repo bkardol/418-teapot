@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Teapot.AspNetCore</id>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <title>ASP.NET Core Teapot endpoint</title>
     <authors>Bart Kardol</authors>
     <owners>Bart Kardol</owners>
@@ -12,5 +12,13 @@
     <description>A library including a 'teapot' endpoint with a 'brewcoffee' method.</description>
     <copyright>Copyright 2019</copyright>
     <tags>teapot brew 418 aspnetcore asp core api</tags>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.0">
+      </group>
+    </dependencies>
   </metadata>
+  <files>
+    <file src="..\bin\Release\netcoreapp3.0\Teapot.dll" target="lib\netcoreapp3.0"/>
+    <file src="..\bin\Release\netcoreapp3.0\Teapot.pdb" target="lib\netcoreapp3.0"/>
+  </files>
 </package>
